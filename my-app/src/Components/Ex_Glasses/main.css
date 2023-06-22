@@ -1,0 +1,33 @@
+#ex_glasses{
+    background-image: url(./../../../public/glassesImage/background.jpg);
+    height: 700px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+#ex_glasses .col-6 {
+    width: calc(50% - 150px);
+    margin-left: 150px;
+}
+#ex_glasses .col-6 img.position-absolute{
+    width: 144px;
+    height: 50px;
+    top: 234px;
+    left: 344px;
+}
+#ex_glasses .col-6 div.position-absolute{
+    background-color:#ffaf70;
+    top: 385px;
+    left: 266px;
+    width: 22%;
+}
+
+#ex_glasses .bg-secondary img {
+    width: 100px;
+    height: 50px;
+    margin-left: 50px;
+    margin-top: 30px;
+    border: 2px solid #ccc;
+    padding: 6px;
+    cursor: pointer;
+}
